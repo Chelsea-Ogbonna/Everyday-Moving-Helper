@@ -108,3 +108,5 @@ From an engineering perspective, rough terrain imposes the greatest mechanical d
 The smooth terrain provides the most favorable operating conditions by minimizing vibration and maintaining consistent wheel-ground contact. Carpet represents an intermediate condition in which energy absorption reduces some impacts, but the compliant surface introduces additional resistance and moderate instability.
 The combination of force sensing and inertial sensing provides a comprehensive characterization of terrain effects. The force sensor captures the interaction between the robot and the environment, while the MPU6050 quantifies the resulting dynamic response of the robot. Together, these measurements provide a more complete understanding of terrain-induced disturbances than either sensor could provide independently.
 
+⬅️ [Previous: View Background](Background.md)                            
+➡️ [Next: View Implication of results](Implication.md)
