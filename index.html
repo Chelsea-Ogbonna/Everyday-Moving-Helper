@@ -4,7 +4,20 @@
   <title>Everyday Moving Helper</title>
 </head>
 <body>
-  <h1>It works 🚀</h1>
-  <p>Your GitHub Pages site is live.</p>
+
+  <h1>Everyday Moving Helper</h1>
+
+  <button onclick="loadData()">Load Data</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    async function loadData() {
+      const res = await fetch("data.csv");
+      const text = await res.text();
+      document.getElementById("output").innerText = text;
+    }
+  </script>
+
 </body>
 </html>
