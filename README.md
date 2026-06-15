@@ -28,7 +28,7 @@ Terrains tested:
 [View Results](Results.md)
 
 ## Implication of results
-[View Connection](Connecting prototype with results.md)
+[View Implication of results](Implication.md)
 
 
 ## Future Work
