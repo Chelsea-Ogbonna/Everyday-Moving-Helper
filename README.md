@@ -17,7 +17,7 @@ Terrain testing was conducted using:
 Terrains tested:
 
 - Smooth flooring
-- Rough terrain
+- Rough terrain (road)
 - Carpet
 
 ## Background
