@@ -23,11 +23,13 @@ Terrains tested:
 ## Background
 [View Background](Background.md)
 
-##
 
 ## Results
+[View Results](Results.md)
 
-##
+## Implication of results
+[View Connection](Connecting prototype with results.md)
+
 
 ## Future Work
 [View FUTURE EXPERIMENTS RESULTS](Future_Experiments.md)
