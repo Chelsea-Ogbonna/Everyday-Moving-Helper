@@ -3,19 +3,35 @@
 <head>
   <title>Everyday Moving Helper</title>
 </head>
-<body>
 
+<body>
   <h1>Everyday Moving Helper</h1>
 
-  <button onclick="loadData()">Load Data</button>
+  <h2>Robot Code CSV Data</h2>
 
-  <pre id="output"></pre>
+  <button onclick="loadCSV()">Load Data</button>
+
+  <pre id="output">Click the button to load data...</pre>
 
   <script>
-    async function loadData() {
-      const res = await fetch("data.csv");
-      const text = await res.text();
-      document.getElementById("output").innerText = text;
+    async function loadCSV() {
+      try {
+        // CHANGE THIS LINE IF YOUR FILE NAME IS DIFFERENT
+        const filePath = "robotcode/data.csv";
+
+        const response = await fetch(filePath);
+
+        if (!response.ok) {
+          throw new Error("File not found. Check path: " + filePath);
+        }
+
+        const text = await response.text();
+
+        document.getElementById("output").innerText = text;
+      } catch (error) {
+        document.getElementById("output").innerText =
+          "Error loading file: " + error.message;
+      }
     }
   </script>
 
